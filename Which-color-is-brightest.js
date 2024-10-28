@@ -19,3 +19,6 @@ If there are multiple brightest colors, return the first one:
 brightest(["#00FF00", "#FFFF00", "#01130F"]) == "#00FF00"
 Note: that both input and output should use upper case for characters A, B, C, D, E, F.
 */
+
+
+// Solution
