@@ -41,3 +41,11 @@ function brightest(colors){
 }
 
 // or
+
+function sB(s){
+  return Math.max(...[s.slice(1, 3), s.slice(3, 5), s.slice(5, 7)].map(x => parseInt(x, 16)))
+}
+
+function brightest(colors){
+  return colors.sort((a, b) => sB(b) - sB(a))[0]
+}
