@@ -39,3 +39,5 @@ function brightest(colors){
   }
   return colors[index]
 }
+
+// or
